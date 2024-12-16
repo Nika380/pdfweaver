@@ -1,0 +1,21 @@
+{
+  "name": "pdfweaver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "html to pdf",
+    "puppeteer",
+    "nodejs"
+  ],
+  "author": "Nika Natroshvili",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.10.4"
+  }
+}
