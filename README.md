@@ -12,9 +12,8 @@
 
 To convert `HTML` content to `PDF` use htmlToPdf function:
 
-
 ```js
-const pdfweaver = require("pdfweaver");
+const { htmlToPdf } = require("pdfweaver");
 
 const options = {
   format: "A4",
@@ -32,13 +31,13 @@ const options = {
 const content = "<h1> This Is Content HTML</h1>";
 
 // logs PDF Buffer
-pdfweaver.htmlToPdf(options, content).then((res) => {
+htmlToPdf({ content }, options).then((res) => {
   console.log("PDF Buffer: ", res);
 });
 
 // Returns PDF Buffer
 async function returnPDFBuffer() {
-  const pdfBuffer = await pdfweaver.htmlToPdf(options, content);
+  const pdfBuffer = await htmlToPdf({ content }, options);
   return pdfBuffer;
 }
 ```
