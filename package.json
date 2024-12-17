@@ -1,7 +1,7 @@
 {
   "name": "pdfweaver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple HTML To PDF NodeJS package based on puppeteer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,16 @@
     "nodejs"
   ],
   "author": "Nika Natroshvili",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "puppeteer": "^23.10.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nika380/pdfweaver"
+  },
+  "bugs": {
+    "url": "https://github.com/Nika380/pdfweaver/issues"
+  },
+  "homepage": "https://github.com/Nika380/pdfweaver#readme"
 }
