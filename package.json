@@ -1,6 +1,6 @@
 {
   "name": "pdfweaver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple HTML To PDF NodeJS package based on puppeteer",
   "main": "index.js",
   "scripts": {
