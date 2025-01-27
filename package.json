@@ -16,7 +16,7 @@
   "author": "Nika Natroshvili",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^23.11.0"
+    "puppeteer": "^24.1.1"
   },
   "repository": {
     "type": "git",
